@@ -1,0 +1,29 @@
+@import '_config.scss';
+@import '_searchbar.scss', '_navbar.scss', '_jobs.scss';
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: $primary-color;
+  margin: 0;
+  padding: 0;
+  background-image: url('../../images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: 320px;
+  margin-right: 320px;
+}
+
+.secondary-text {
+  color: $secondary-text-color;
+  font-size: small;
+}
+
+.container-main {
+  margin-top: 150px;
+}
+
+.title {
+  font-size: 40px;
+}

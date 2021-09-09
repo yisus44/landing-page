@@ -1,0 +1,59 @@
+.nav-list {
+  margin: 0;
+  padding: 16px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  color: white;
+  font-weight: bold;
+  list-style: none;
+  margin-right: 32px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: $primary-color;
+}
+.nav-item :hover {
+  transition: all 200ms ease-in;
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 32px;
+}
+
+.btn-primary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 32px;
+  margin-right: 32px;
+  transition: all 200ms ease-in;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  outline: none;
+  color: $primary-color;
+}
+
+.btn-primary:hover {
+  background-color: $secondary-color-hover;
+
+  font-weight: bold;
+  color: whitesmoke;
+}
+.puzzle-icon-nav {
+  color: $secondary-color;
+  margin-left: 50px;
+}
+.puzzle-icon-nav:hover {
+  color: $secondary-color-hover;
+  background-color: $primary-color;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px grey;
+}

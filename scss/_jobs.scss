@@ -1,0 +1,62 @@
+.container-jobs {
+  display: flex;
+}
+
+.card {
+  margin-left: 30px;
+}
+
+.card-top {
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.card-mid {
+  border: 1px solid lightgray;
+  background-color: white;
+  color: $secondary-text-color;
+  text-align: justify;
+  padding-left: 15px;
+}
+
+.card-bottom {
+  border: 1px solid lightgray;
+  background-color: $card-color;
+  padding-left: 15px;
+}
+
+.price-text {
+  font-size: 28px;
+  color: $secondary-color;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.postion-text {
+  padding-bottom: 5px;
+  color: black;
+}
+.puzzle-icon {
+  color: $secondary-color;
+  border: 1px solid lightgray;
+  margin-left: 50px;
+  float: rigth;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.puzzle-icon:hover {
+  transition: all 250ms ease-in;
+  color: $primary-color;
+  background-color: $secondary-color;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

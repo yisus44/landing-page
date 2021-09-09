@@ -1,0 +1,231 @@
+.search-bar {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 800px;
+  height: 70px;
+}
+
+.btn-search {
+  color: white;
+  background-color: #fb9758;
+  margin-top: 13px;
+  margin-right: 10px;
+  float: rigth;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-search:hover {
+  cursor: pointer;
+}
+
+.search-box {
+  background-color: white;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50px;
+  width: 850px;
+  height: 75px;
+  padding-left: 25px;
+  -webkit-box-shadow: 15px 15px 15px grey;
+          box-shadow: 15px 15px 15px grey;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-item {
+  color: white;
+  font-weight: bold;
+  list-style: none;
+  margin-right: 32px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f2f3f7;
+}
+
+.nav-item :hover {
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  color: #5150d4;
+  background-color: #f2f3f7;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 32px;
+}
+
+.btn-primary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 32px;
+  margin-right: 32px;
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  outline: none;
+  color: #f2f3f7;
+}
+
+.btn-primary:hover {
+  background-color: #5d44d5;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.puzzle-icon-nav {
+  color: #5150d4;
+  margin-left: 50px;
+}
+
+.puzzle-icon-nav:hover {
+  color: #5d44d5;
+  background-color: #f2f3f7;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px grey;
+}
+
+.container-jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  margin-left: 30px;
+}
+
+.card-top {
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.card-mid {
+  border: 1px solid lightgray;
+  background-color: white;
+  color: #989a9c;
+  text-align: justify;
+  padding-left: 15px;
+}
+
+.card-bottom {
+  border: 1px solid lightgray;
+  background-color: #f2f2f6;
+  padding-left: 15px;
+}
+
+.price-text {
+  font-size: 28px;
+  color: #5150d4;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.postion-text {
+  padding-bottom: 5px;
+  color: black;
+}
+
+.puzzle-icon {
+  color: #5150d4;
+  border: 1px solid lightgray;
+  margin-left: 50px;
+  float: rigth;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.puzzle-icon:hover {
+  -webkit-transition: all 250ms ease-in;
+  transition: all 250ms ease-in;
+  color: #f2f3f7;
+  background-color: #5150d4;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px grey;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f3f7;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: 320px;
+  margin-right: 320px;
+}
+
+.secondary-text {
+  color: #989a9c;
+  font-size: small;
+}
+
+.container-main {
+  margin-top: 150px;
+}
+
+.title {
+  font-size: 40px;
+}
+/*# sourceMappingURL=main.css.map */
